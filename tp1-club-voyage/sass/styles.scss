@@ -1,5 +1,5 @@
 /*
-Theme Name: 4W4 - wp-club-voyage
+Theme Name: theme-club-voyage
 Theme URI: https://referenced.ca
 Author: Adil Mostapha EL AMRANI
 Author URI: https://github.com/Adil-ELAMRANI
@@ -12,8 +12,12 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: Adil
 */
 
+// Importation des variables
+@import "variables/couleurs";
+@import "variables/dimensions";
+
 // Importation de base
-@import "base/reset";
+// @import "base/reset";
 
 // Importation des composants
 @import "composants/hero";
@@ -21,12 +25,7 @@ Text Domain: Adil
 @import "composants/photo-grid";
 @import "composants/registration-form";
 
-
 // Layout global
 @import "layout/entete";
 @import "layout/principal";
 @import "layout/footer";
-
-// Importation des variables
-@import "variables/couleurs";
-@import "variables/dimensions";

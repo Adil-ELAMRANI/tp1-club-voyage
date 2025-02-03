@@ -12,5 +12,5 @@ Ce projet est un prototype HTML/CSS pour une plateforme de voyage. Il utilise Sa
 - Initialiser Git : `git init`
 - Pousser sur GitHub : `git push origin tp1`
 
-## Auteur
+## Auteursass
 Adil Mostapha EL AMRANI
