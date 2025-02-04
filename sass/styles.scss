@@ -20,10 +20,12 @@ Text Domain: Adil
 //@import "base/reset";
 
 // Importation des composants
+@import "composants/header";
+@import "composants/registration-form";
 @import "composants/hero";
 @import "composants/menu";
 @import "composants/photo-grid";
-@import "composants/registration-form";
+
 
 // Layout global
 @import "layout/entete";
