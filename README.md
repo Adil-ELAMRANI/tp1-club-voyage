@@ -3,6 +3,8 @@
 
 Ce projet est un prototype HTML/CSS pour une plateforme de voyage. Il utilise Sass, le standard BEM, et inclut des sections principales comme un header, une section hero, un formulaire d'inscription, et une galerie de photos.
 
+## Lien WP: https://gftnth00.mywhc.ca/33w4
+
 ## Structure du Projet
 
 - `index.html` : Fichier HTML principal.
