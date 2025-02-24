@@ -58,4 +58,35 @@
 
 </section>
 
+<!-- Promotions Section 
+<section class="photo-grid-container">
+<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+                <?php if (in_category('Galerie')) {
+                    the_content();
+                } else { ?>
+<article>
+        <h2 class="photo-grid-title"><?php the_title(); ?></h2>
+        <div class="photo-grid"><?php the_content(); ?>
+            <img src="assets/images/Barcelone, Espagne.jpg" alt="Barcelone, Espagne">
+            <img src="assets/images/Berlin, Allemagne.jpg" alt="Berlin, Allemagne">
+            <img src="assets/images/Budapest, Hongrie.jpg" alt="Budapest, Hongrie">
+            <img src="assets/images/Buenos Aires, Argentine.jpg" alt="Buenos Aires, Argentine">
+            <img src="assets/images/Chiang Mai, Thaïlande.jpg" alt="Chiang Mai, Thaïlande">
+            <img src="assets/images/Chicago, Illinois.jpg" alt="Chicago, Illinois">
+            <img src="assets/images/Dubaï, Emirats Arabes Unis.jpg" alt="Dubaï, Emirats Arabes Unis">
+            <img src="assets/images/Istanbul, Turquie.jpg" alt="Istanbul, Turquie">
+            <img src="assets/images/Florence, Italie.jpg" alt="Florence, Italie">
+            <img src="assets/images/Lisbonne, Portugal.jpg" alt="Lisbonne, Portugal">
+            <img src="assets/images/Marrakech, Maroc.jpg" alt="Marrakech, Maroc">
+            <img src="assets/images/Sydney, Australie.jpg" alt="Sydney, Australie">
+            <img src="assets/images/Siem Reap, Cambodge.jpg" alt="Siem Reap, Cambodge">
+            <img src="assets/images/Shanghai, Chine.jpg" alt="Shanghai, Chine">
+            <img src="assets/images/San Francisco Californie.jpg" alt="San Francisco Californie">
+        </div>
+    </article>
+    <?php } ?>
+        <?php endwhile;
+        endif; ?>
+    </section> -->
+
 <?php get_footer(); ?>

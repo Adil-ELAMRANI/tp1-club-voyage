@@ -14,20 +14,42 @@
 
 <body>
     <!-- Header Section -->
-    <header>
+   <!--  <header>
         <div class="header-container">
             <figure class="logo">
-                <!-- <img src="assets/logo/logo.png" alt="Logo"> -->
-                <img src="<?php echo get_template_directory_uri() . '/assets/logo/logo.png' ?>">
+                 <img src="assets/logo/logo.png" alt="Logo"> -->
+           <!--     <img src="<?php echo get_template_directory_uri() . '/assets/logo/logo.png' ?>">
             </figure>
             <div class="navigation menu">
                 <?php wp_nav_menu(array('theme_location' => 'header-menu', 'menu' => 'principal', 'container' => 'nav', 'container_class' => '', 'container_id' => '', 'container_aria_label' => '', 'menu_class' => '')) ?>
-                <form class="search">
-                    <input type="text" placeholder="Search" class="search__input">
-                    <img class="search__img" src="/images/general/blank1.gif" width="16"
-                        height="16">
-                </form>
             </div>
+            <form class="search-bar">
+                <input type="text" placeholder="Rechercher...">
+                <button type="submit">
+                    <img src="https://s2.svgbox.net/hero-outline.svg?ic=search&color=000" alt="Search" width="15"
+                        height="15">
+                </button>
+            </form>
+        </div>
+    </header>-->
+
+    <header>
+        <div class="header-container">
+            <figure class="logo">
+                <img src="<?php echo get_template_directory_uri() . '/assets/logo/logo.png' ?>" alt="Logo">
+            </figure>
+            <nav class="navigation">
+                <ul class="menu">
+                    <li><a href="#">Aventure</a></li>
+                    <li><a href="#">Sportive</a></li>
+                    <li><a href="#">Culturelle</a></li>
+                    <li><a href="#">Familiale</a></li>
+                    <li><a href="#">Gastronomique</a></li>
+                    <li><a href="#">Bien-être</a></li>
+                    <li><a href="#">Romantique</a></li>
+                    <li><a href="#">Musicale</a></li>
+                </ul>
+            </nav>
             <form class="search-bar">
                 <input type="text" placeholder="Rechercher...">
                 <button type="submit">
