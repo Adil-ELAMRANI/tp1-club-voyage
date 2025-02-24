@@ -1,24 +1,76 @@
-# TP1 - Club Voyage
+## 🌍 Club de Voyage - Projet WordPress
 
-Ce projet est un prototype HTML/CSS pour une plateforme de voyage. Il utilise Sass, le standard BEM, et inclut des sections principales comme un header, une section hero, un formulaire d'inscription, et une galerie de photos.
+### 🎯 Objectif
 
-## Lien WP: https://gftnth00.mywhc.ca/33w4
+Développer un site WordPress pour un **club de voyage**, permettant aux membres d’accéder à des offres exclusives et d’explorer différentes destinations à travers le monde.
 
-## Structure du Projet
+---
 
-- `index.html` : Fichier HTML principal.
-- `sass/` : Fichiers Sass organisés en composants, layout, et variables.
-- `css/` : Fichiers CSS compilés.
-- `images/` : Images utilisées dans le projet..
+### 🏗️ Étapes du projet
 
-## Commandes Utiles
+🔹 **TP1 - Prototype HTML/CSS**  
+✅ Création de la maquette avec **BEM** et **Sass**  
+✅ Structuration en **header, contenu principal, footer**
 
-- Compiler Sass : `sass sass/style.scss css/style.css`
-- Initialiser Git : `git init`
-- Pousser sur GitHub : `git push origin tp1`
+🔹 **TP2 - Conversion en Thème WordPress**  
+✅ Découpage en fichiers (`header.php`, `footer.php`, `functions.php`, `index.php`)  
+✅ Utilisation des fonctions **WordPress** (`wp_head()`, `wp_footer()`, `get_header()`, `get_footer()`)  
+✅ Ajout du fichier **functions.php** pour gérer les styles et menus
 
-## Auteur
+🔹 **TP3 - Ajout de nouvelles pages**  
+✅ Intégration la page :
 
-Adil Mostapha EL AMRANI
-=======
-# club-voyage
+- 🏝 Destinations populaires  
+  ✅ Navigation améliorée et styles optimisés
+
+---
+
+### 📂 Structure du projet
+
+```
+VOYAGE/
+│── wp-admin/
+│── wp-content/
+│   ├── themes/
+│   │   ├── theme-tp/
+│   │   │   ├── assets/
+│   │   │   ├── sass/
+│   │   │   ├── header.php
+│   │   │   ├── footer.php
+│   │   │   ├── functions.php
+│   │   │   ├── front-page.php
+│   │   │   ├── style.css
+│   │   │   ├── README.md
+│── wp-includes/
+│── wp-config.php
+│── .htaccess
+│── index.php
+```
+
+---
+
+### 🚀 Déploiement sur Web Hosting Canada (WHC)
+
+📌 **Étapes :**
+
+1. Uploader le dossier `theme-tp/` dans `wp-content/themes/`
+2. Activer le thème depuis l’interface WordPress
+3. Supprimer les fichiers inutiles (`theme-tp.zip`, `Copie`, `backup`)
+
+---
+
+## 🔗 Liens utiles
+
+- [Documentation WordPress](https://developer.wordpress.org/)
+- [WHC Hébergement](https://whc.ca/)
+- [Guide BEM CSS](http://getbem.com/)
+- [Sass Langage](https://sass-lang.com/)
+
+---
+
+## 📧 Contact
+
+**Nom** : Adil Mostapha EL AMRANI  
+**Email** : c2395866@cmaisonneuve.qc.ca  
+**GitHub** : [https://github.com/Adil-ELAMRANI](https://github.com/Adil-ELAMRANI)  
+**Site Web** : [https://gftnth00.mywhc.ca/33w4](https://gftnth00.mywhc.ca/33w4)
